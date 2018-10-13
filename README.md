@@ -2,7 +2,7 @@
 
 A custom cursor created from the CustomPaint widget
 
-<img src="slider.gif" width="200" />
+<img src="slider.gif" width="300" />
 
 ## Cell : 
 
