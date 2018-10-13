@@ -23,7 +23,8 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Custom Slider"),
+        title: Text("Custom Slider", style: TextStyle(color: Colors.black),),        
+        backgroundColor: Color(0xFFfddb92),
       ),
       body: Container(
         decoration: BoxDecoration(
@@ -44,6 +45,7 @@ class HomePage extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: RaisedButton(
+                  color: Color(0xFFfddb92),
                     child: new Text("Cell"),
                     onPressed: () {
                       Navigator.push(
@@ -57,6 +59,7 @@ class HomePage extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: RaisedButton(
+                  color: Color(0xFFfddb92),
                     child: new Text("Bar"),
                     onPressed: () {
                       Navigator.push(
@@ -70,6 +73,7 @@ class HomePage extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: RaisedButton(
+                  color: Color(0xFFfddb92),
                     child: new Text("Slider"),
                     onPressed: () {
                       Navigator.push(
@@ -87,5 +91,3 @@ class HomePage extends StatelessWidget {
     );
   }
 }
-
-

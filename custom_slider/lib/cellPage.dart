@@ -7,6 +7,7 @@ class CellPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Cell"),
+        backgroundColor: Color(0xFFfddb92),
       ),
       body: Container(
         decoration: BoxDecoration(
