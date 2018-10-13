@@ -35,10 +35,10 @@ class Bar extends StatelessWidget {
     cellDataList.forEach((cellData) {
       _leftGap = _rightGap;
       _rightGap = cellData.rightGap ?? _nextRandomDouble();
-      result.add(CustomCell(
+      result.add(Cell(
         cellWidth,
         _cellHeight,
-        fontSize: cellWidth / 2,
+        fontSize: cellWidth / 3,
         color: cellData.color,
         strokeColor: _strokeColor,
         strokeWidth: _strokeWidth,

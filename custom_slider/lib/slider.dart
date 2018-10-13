@@ -38,7 +38,7 @@ class Gauge extends StatelessWidget {
       children: <Widget>[
         new Bubble(
           topBubbleKey,
-            "Perdre son permis",
+            "Exciting ?",
             gaugeWidth,
             pointerFrameWidth,
             pointerFrameHeight,
@@ -53,7 +53,7 @@ class Gauge extends StatelessWidget {
             gaugeWidth, barHeight, cellDataList, strokeColor, strokeWidth),
         new Bubble(
           botBubbleKey,
-            "Devenir millionaire",
+            "Do you Love it ?",
             gaugeWidth,
             pointerFrameWidth,
             pointerFrameHeight,

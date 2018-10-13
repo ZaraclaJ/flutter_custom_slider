@@ -8,7 +8,7 @@ class CellData {
   CellData(this.color, this.text, {this.rightGap});
 }
 
-class CustomCell extends StatelessWidget {
+class Cell extends StatelessWidget {
   final double _height;
   final double _width;
   final double _fontSize;
@@ -23,7 +23,7 @@ class CustomCell extends StatelessWidget {
   final Color _strokeColor;
   final double _strokeWidth;
 
-  CustomCell(this._width, this._height,
+  Cell(this._width, this._height,
       {contentString: '',
       fontSize: 35.0,
       color: Colors.black,
